@@ -1,0 +1,218 @@
+.auth-container{
+    width: 400px;
+    height: 600px;
+}
+.navbar{
+    height: 50px;
+    background-color: rgb(63, 64, 128);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .logo{
+    font-size: 20px;
+    font-weight: space-around;
+  }
+  .list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  .listItem{
+    margin-right: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .avater{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid black;
+  
+  }
+  .home{
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .card{
+    width: 30%;
+    padding: 10px;
+    -webkit-box-shadow: 7px 8px 9px 7px rgba(0,0,0,0.91); 
+  box-shadow: 7px 8px 9px 7px rgba(0,0,0,0.91);
+  
+  }
+  .img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px 0px;
+  }
+  
+  .desc{
+    color: #333;
+    margin-bottom: 20px;
+    line-height:25px ;
+  }
+  .cardButton{
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(93, 41, 141);
+    font-weight: bold;
+    padding: 10px;
+    color: beige;
+    cursor: pointer;
+  }
+    .post{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .postImg{
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+  
+    .postDesc{
+      padding: 0 10px;
+      font-size: 24px;
+      font-weight: 300;
+      color: gray;
+      margin-top: 53px;
+    }
+    .postLongDesce{
+      padding: 100px;
+      padding-top: 50px;
+      font-size: 19px;
+      line-height: 24px;
+    }
+  
+    .login {
+      height: calc(100vh - 50px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    
+    .wrapper {
+      width: 60%;
+      height: 75%;
+      -webkit-box-shadow: 0px 3px 36px 11px rgba(0,0,0,0.26); 
+  box-shadow: 0px 3px 36px 11px rgba(0,0,0,0.26);
+      display: flex;
+      align-items: center;
+      border-radius: 20px;
+    }
+    
+    
+    .left,.right{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .center{
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    
+    .or{
+      border: 2px solid lightgray;
+      border-radius: 50%;
+      padding: 10px;
+      color: gray;
+      background-color: white;
+      font-weight: bold;
+    }
+    
+    .line{
+      width: 0.5px;
+      height: 70%;
+      background-color: lightgray;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      z-index: -1;
+    }
+    
+    .loginButton{
+      width: 150px;
+      padding: 15px 25px;
+      border-radius: 5px;
+      color: white;
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+    
+    .Google{
+      background-color: #df4930;
+    }
+    .Facebook{
+      background-color: #507cc0;
+    }
+    .Github{
+      background-color: black;
+    }
+    
+    .icon{
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+    
+    input{
+      width: 200px;
+      padding: 5px 2px;
+      margin-bottom: 10px;
+      
+    }
+    .inputs{
+        width: 200px;
+        padding: 5px 2px;
+        margin-bottom: 10px;
+ 
+      }
+    
+    .submit{
+      width: 200px;
+      background-color: rgba(107, 11, 107, 0.671);
+      color: white;
+      font-weight: bold;
+      border: none;
+      padding: 15px 20px;
+      border-radius: 5px;
+    }
+    .submit:hover{
+      color: rgb(194, 18, 170);
+      background-color: rgb(134, 221, 21);
+    }
+    
+    .loginTitle{
+      position: absolute;
+      top: 100px;
+      color:rgb(124, 124, 124)
+    }
+  
+    .link{
+      color: white;
+      text-decoration: none;
+    }
